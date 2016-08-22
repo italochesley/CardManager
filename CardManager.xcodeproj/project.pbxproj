@@ -58,6 +58,7 @@
 		851319641D6B925500D9AB72 /* CardManager */ = {
 			isa = PBXGroup;
 			children = (
+				8513197E1D6B92C400D9AB72 /* Source */,
 				851319681D6B925500D9AB72 /* AppDelegate.h */,
 				851319691D6B925500D9AB72 /* AppDelegate.m */,
 				8513196B1D6B925500D9AB72 /* ViewController.h */,
@@ -77,6 +78,69 @@
 				851319661D6B925500D9AB72 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8513197E1D6B92C400D9AB72 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8513197F1D6B92C400D9AB72 /* Business */,
+				851319801D6B92C400D9AB72 /* Controller */,
+				851319811D6B92C400D9AB72 /* Manager */,
+				851319821D6B92C400D9AB72 /* Model */,
+				851319831D6B92C400D9AB72 /* Provider */,
+				851319841D6B92C400D9AB72 /* Security */,
+				851319851D6B92C400D9AB72 /* View */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8513197F1D6B92C400D9AB72 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		851319801D6B92C400D9AB72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		851319811D6B92C400D9AB72 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		851319821D6B92C400D9AB72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		851319831D6B92C400D9AB72 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		851319841D6B92C400D9AB72 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		851319851D6B92C400D9AB72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
