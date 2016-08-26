@@ -9,23 +9,124 @@
 /* Begin PBXBuildFile section */
 		851319671D6B925500D9AB72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 851319661D6B925500D9AB72 /* main.m */; };
 		8513196A1D6B925500D9AB72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 851319691D6B925500D9AB72 /* AppDelegate.m */; };
-		8513196D1D6B925500D9AB72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8513196C1D6B925500D9AB72 /* ViewController.m */; };
+		8513196D1D6B925500D9AB72 /* CMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8513196C1D6B925500D9AB72 /* CMLoginViewController.m */; };
 		851319701D6B925500D9AB72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8513196E1D6B925500D9AB72 /* Main.storyboard */; };
 		851319721D6B925500D9AB72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851319711D6B925500D9AB72 /* Assets.xcassets */; };
 		851319751D6B925500D9AB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851319731D6B925500D9AB72 /* LaunchScreen.storyboard */; };
+		85190B601D6E1F72009C98C4 /* CMNetworkProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85190B5F1D6E1F72009C98C4 /* CMNetworkProvider.m */; };
+		85190B631D6E3FB5009C98C4 /* CMLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 85190B621D6E3FB5009C98C4 /* CMLoginManager.m */; };
+		85190B661D6F7A2A009C98C4 /* CMUserProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 85190B651D6F7A2A009C98C4 /* CMUserProvider.m */; };
+		85190B7C1D708899009C98C4 /* imagem-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B681D708899009C98C4 /* imagem-0.png */; };
+		85190B7D1D708899009C98C4 /* imagem-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B691D708899009C98C4 /* imagem-1.png */; };
+		85190B7E1D708899009C98C4 /* imagem-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B6A1D708899009C98C4 /* imagem-10.png */; };
+		85190B7F1D708899009C98C4 /* imagem-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B6B1D708899009C98C4 /* imagem-11.png */; };
+		85190B801D708899009C98C4 /* imagem-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B6C1D708899009C98C4 /* imagem-12.png */; };
+		85190B811D708899009C98C4 /* imagem-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B6D1D708899009C98C4 /* imagem-13.png */; };
+		85190B821D708899009C98C4 /* imagem-14.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B6E1D708899009C98C4 /* imagem-14.png */; };
+		85190B831D708899009C98C4 /* imagem-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B6F1D708899009C98C4 /* imagem-15.png */; };
+		85190B841D708899009C98C4 /* imagem-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B701D708899009C98C4 /* imagem-16.png */; };
+		85190B851D708899009C98C4 /* imagem-17.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B711D708899009C98C4 /* imagem-17.png */; };
+		85190B861D708899009C98C4 /* imagem-18.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B721D708899009C98C4 /* imagem-18.png */; };
+		85190B871D708899009C98C4 /* imagem-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B731D708899009C98C4 /* imagem-19.png */; };
+		85190B881D708899009C98C4 /* imagem-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B741D708899009C98C4 /* imagem-2.png */; };
+		85190B891D708899009C98C4 /* imagem-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B751D708899009C98C4 /* imagem-3.png */; };
+		85190B8A1D708899009C98C4 /* imagem-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B761D708899009C98C4 /* imagem-4.png */; };
+		85190B8B1D708899009C98C4 /* imagem-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B771D708899009C98C4 /* imagem-5.png */; };
+		85190B8C1D708899009C98C4 /* imagem-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B781D708899009C98C4 /* imagem-6.png */; };
+		85190B8D1D708899009C98C4 /* imagem-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B791D708899009C98C4 /* imagem-7.png */; };
+		85190B8E1D708899009C98C4 /* imagem-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B7A1D708899009C98C4 /* imagem-8.png */; };
+		85190B8F1D708899009C98C4 /* imagem-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 85190B7B1D708899009C98C4 /* imagem-9.png */; };
+		85190BA91D70B9BC009C98C4 /* SanFranciscoDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B931D70B9BC009C98C4 /* SanFranciscoDisplay-Black.otf */; };
+		85190BAA1D70B9BC009C98C4 /* SanFranciscoDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B941D70B9BC009C98C4 /* SanFranciscoDisplay-Bold.otf */; };
+		85190BAB1D70B9BC009C98C4 /* SanFranciscoDisplay-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B951D70B9BC009C98C4 /* SanFranciscoDisplay-Heavy.otf */; };
+		85190BAC1D70B9BC009C98C4 /* SanFranciscoDisplay-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B961D70B9BC009C98C4 /* SanFranciscoDisplay-Light.otf */; };
+		85190BAD1D70B9BC009C98C4 /* SanFranciscoDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B971D70B9BC009C98C4 /* SanFranciscoDisplay-Medium.otf */; };
+		85190BAE1D70B9BC009C98C4 /* SanFranciscoDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B981D70B9BC009C98C4 /* SanFranciscoDisplay-Regular.otf */; };
+		85190BAF1D70B9BC009C98C4 /* SanFranciscoDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B991D70B9BC009C98C4 /* SanFranciscoDisplay-Semibold.otf */; };
+		85190BB01D70B9BC009C98C4 /* SanFranciscoDisplay-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B9A1D70B9BC009C98C4 /* SanFranciscoDisplay-Thin.otf */; };
+		85190BB11D70B9BC009C98C4 /* SanFranciscoDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B9B1D70B9BC009C98C4 /* SanFranciscoDisplay-Ultralight.otf */; };
+		85190BB21D70B9BC009C98C4 /* SanFranciscoText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B9C1D70B9BC009C98C4 /* SanFranciscoText-Bold.otf */; };
+		85190BB31D70B9BC009C98C4 /* SanFranciscoText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B9D1D70B9BC009C98C4 /* SanFranciscoText-BoldItalic.otf */; };
+		85190BB41D70B9BC009C98C4 /* SanFranciscoText-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B9E1D70B9BC009C98C4 /* SanFranciscoText-Heavy.otf */; };
+		85190BB51D70B9BC009C98C4 /* SanFranciscoText-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190B9F1D70B9BC009C98C4 /* SanFranciscoText-HeavyItalic.otf */; };
+		85190BB61D70B9BC009C98C4 /* SanFranciscoText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA01D70B9BC009C98C4 /* SanFranciscoText-Light.otf */; };
+		85190BB71D70B9BC009C98C4 /* SanFranciscoText-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA11D70B9BC009C98C4 /* SanFranciscoText-LightItalic.otf */; };
+		85190BB81D70B9BC009C98C4 /* SanFranciscoText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA21D70B9BC009C98C4 /* SanFranciscoText-Medium.otf */; };
+		85190BB91D70B9BC009C98C4 /* SanFranciscoText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA31D70B9BC009C98C4 /* SanFranciscoText-MediumItalic.otf */; };
+		85190BBA1D70B9BC009C98C4 /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA41D70B9BC009C98C4 /* SanFranciscoText-Regular.otf */; };
+		85190BBB1D70B9BC009C98C4 /* SanFranciscoText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA51D70B9BC009C98C4 /* SanFranciscoText-RegularItalic.otf */; };
+		85190BBC1D70B9BC009C98C4 /* SanFranciscoText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA61D70B9BC009C98C4 /* SanFranciscoText-Semibold.otf */; };
+		85190BBD1D70B9BC009C98C4 /* SanFranciscoText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85190BA71D70B9BC009C98C4 /* SanFranciscoText-SemiboldItalic.otf */; };
+		85F3BC9E1D6CB6690027C10B /* CMLoginUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F3BC9D1D6CB6690027C10B /* CMLoginUIView.m */; };
+		85F3BCC41D6CF6D80027C10B /* CMCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F3BCC31D6CF6D80027C10B /* CMCustomTextField.m */; };
+		AF029A344E825F7D0BE76F29 /* Pods_CardManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7860C36D7B325A949F47917 /* Pods_CardManager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09D38EBB29B3110D99EA570B /* Pods-CardManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardManager/Pods-CardManager.release.xcconfig"; sourceTree = "<group>"; };
 		851319621D6B925500D9AB72 /* CardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		851319661D6B925500D9AB72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		851319681D6B925500D9AB72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		851319691D6B925500D9AB72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8513196B1D6B925500D9AB72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8513196C1D6B925500D9AB72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8513196B1D6B925500D9AB72 /* CMLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CMLoginViewController.h; path = ../../CMLoginViewController.h; sourceTree = "<group>"; };
+		8513196C1D6B925500D9AB72 /* CMLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CMLoginViewController.m; path = ../../CMLoginViewController.m; sourceTree = "<group>"; };
 		8513196F1D6B925500D9AB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		851319711D6B925500D9AB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851319711D6B925500D9AB72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		851319741D6B925500D9AB72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		851319761D6B925500D9AB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85190B5E1D6E1F72009C98C4 /* CMNetworkProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMNetworkProvider.h; sourceTree = "<group>"; };
+		85190B5F1D6E1F72009C98C4 /* CMNetworkProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMNetworkProvider.m; sourceTree = "<group>"; };
+		85190B611D6E3FB5009C98C4 /* CMLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLoginManager.h; sourceTree = "<group>"; };
+		85190B621D6E3FB5009C98C4 /* CMLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLoginManager.m; sourceTree = "<group>"; };
+		85190B641D6F7A2A009C98C4 /* CMUserProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUserProvider.h; sourceTree = "<group>"; };
+		85190B651D6F7A2A009C98C4 /* CMUserProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUserProvider.m; sourceTree = "<group>"; };
+		85190B681D708899009C98C4 /* imagem-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-0.png"; sourceTree = "<group>"; };
+		85190B691D708899009C98C4 /* imagem-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-1.png"; sourceTree = "<group>"; };
+		85190B6A1D708899009C98C4 /* imagem-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-10.png"; sourceTree = "<group>"; };
+		85190B6B1D708899009C98C4 /* imagem-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-11.png"; sourceTree = "<group>"; };
+		85190B6C1D708899009C98C4 /* imagem-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-12.png"; sourceTree = "<group>"; };
+		85190B6D1D708899009C98C4 /* imagem-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-13.png"; sourceTree = "<group>"; };
+		85190B6E1D708899009C98C4 /* imagem-14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-14.png"; sourceTree = "<group>"; };
+		85190B6F1D708899009C98C4 /* imagem-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-15.png"; sourceTree = "<group>"; };
+		85190B701D708899009C98C4 /* imagem-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-16.png"; sourceTree = "<group>"; };
+		85190B711D708899009C98C4 /* imagem-17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-17.png"; sourceTree = "<group>"; };
+		85190B721D708899009C98C4 /* imagem-18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-18.png"; sourceTree = "<group>"; };
+		85190B731D708899009C98C4 /* imagem-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-19.png"; sourceTree = "<group>"; };
+		85190B741D708899009C98C4 /* imagem-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-2.png"; sourceTree = "<group>"; };
+		85190B751D708899009C98C4 /* imagem-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-3.png"; sourceTree = "<group>"; };
+		85190B761D708899009C98C4 /* imagem-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-4.png"; sourceTree = "<group>"; };
+		85190B771D708899009C98C4 /* imagem-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-5.png"; sourceTree = "<group>"; };
+		85190B781D708899009C98C4 /* imagem-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-6.png"; sourceTree = "<group>"; };
+		85190B791D708899009C98C4 /* imagem-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-7.png"; sourceTree = "<group>"; };
+		85190B7A1D708899009C98C4 /* imagem-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-8.png"; sourceTree = "<group>"; };
+		85190B7B1D708899009C98C4 /* imagem-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem-9.png"; sourceTree = "<group>"; };
+		85190B931D70B9BC009C98C4 /* SanFranciscoDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Black.otf"; sourceTree = "<group>"; };
+		85190B941D70B9BC009C98C4 /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
+		85190B951D70B9BC009C98C4 /* SanFranciscoDisplay-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Heavy.otf"; sourceTree = "<group>"; };
+		85190B961D70B9BC009C98C4 /* SanFranciscoDisplay-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Light.otf"; sourceTree = "<group>"; };
+		85190B971D70B9BC009C98C4 /* SanFranciscoDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Medium.otf"; sourceTree = "<group>"; };
+		85190B981D70B9BC009C98C4 /* SanFranciscoDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Regular.otf"; sourceTree = "<group>"; };
+		85190B991D70B9BC009C98C4 /* SanFranciscoDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Semibold.otf"; sourceTree = "<group>"; };
+		85190B9A1D70B9BC009C98C4 /* SanFranciscoDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Thin.otf"; sourceTree = "<group>"; };
+		85190B9B1D70B9BC009C98C4 /* SanFranciscoDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		85190B9C1D70B9BC009C98C4 /* SanFranciscoText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Bold.otf"; sourceTree = "<group>"; };
+		85190B9D1D70B9BC009C98C4 /* SanFranciscoText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-BoldItalic.otf"; sourceTree = "<group>"; };
+		85190B9E1D70B9BC009C98C4 /* SanFranciscoText-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Heavy.otf"; sourceTree = "<group>"; };
+		85190B9F1D70B9BC009C98C4 /* SanFranciscoText-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-HeavyItalic.otf"; sourceTree = "<group>"; };
+		85190BA01D70B9BC009C98C4 /* SanFranciscoText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Light.otf"; sourceTree = "<group>"; };
+		85190BA11D70B9BC009C98C4 /* SanFranciscoText-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-LightItalic.otf"; sourceTree = "<group>"; };
+		85190BA21D70B9BC009C98C4 /* SanFranciscoText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Medium.otf"; sourceTree = "<group>"; };
+		85190BA31D70B9BC009C98C4 /* SanFranciscoText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-MediumItalic.otf"; sourceTree = "<group>"; };
+		85190BA41D70B9BC009C98C4 /* SanFranciscoText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Regular.otf"; sourceTree = "<group>"; };
+		85190BA51D70B9BC009C98C4 /* SanFranciscoText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-RegularItalic.otf"; sourceTree = "<group>"; };
+		85190BA61D70B9BC009C98C4 /* SanFranciscoText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-Semibold.otf"; sourceTree = "<group>"; };
+		85190BA71D70B9BC009C98C4 /* SanFranciscoText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		85F3BC9C1D6CB6690027C10B /* CMLoginUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLoginUIView.h; sourceTree = "<group>"; };
+		85F3BC9D1D6CB6690027C10B /* CMLoginUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLoginUIView.m; sourceTree = "<group>"; };
+		85F3BCC21D6CF6D80027C10B /* CMCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMCustomTextField.h; sourceTree = "<group>"; };
+		85F3BCC31D6CF6D80027C10B /* CMCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMCustomTextField.m; sourceTree = "<group>"; };
+		C7860C36D7B325A949F47917 /* Pods_CardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB60D1DA56B260F3E51CDD6F /* Pods-CardManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardManager/Pods-CardManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF029A344E825F7D0BE76F29 /* Pods_CardManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +146,8 @@
 			children = (
 				851319641D6B925500D9AB72 /* CardManager */,
 				851319631D6B925500D9AB72 /* Products */,
+				DA4759510E8C9F937D69D05A /* Pods */,
+				B4AF5CC969CB751D124709C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +162,10 @@
 		851319641D6B925500D9AB72 /* CardManager */ = {
 			isa = PBXGroup;
 			children = (
+				85F3BC771D6C78E60027C10B /* Resources */,
 				8513197E1D6B92C400D9AB72 /* Source */,
 				851319681D6B925500D9AB72 /* AppDelegate.h */,
 				851319691D6B925500D9AB72 /* AppDelegate.m */,
-				8513196B1D6B925500D9AB72 /* ViewController.h */,
-				8513196C1D6B925500D9AB72 /* ViewController.m */,
-				8513196E1D6B925500D9AB72 /* Main.storyboard */,
-				851319711D6B925500D9AB72 /* Assets.xcassets */,
-				851319731D6B925500D9AB72 /* LaunchScreen.storyboard */,
 				851319761D6B925500D9AB72 /* Info.plist */,
 				851319651D6B925500D9AB72 /* Supporting Files */,
 			);
@@ -104,6 +204,8 @@
 		851319801D6B92C400D9AB72 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8513196B1D6B925500D9AB72 /* CMLoginViewController.h */,
+				8513196C1D6B925500D9AB72 /* CMLoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,6 +213,8 @@
 		851319811D6B92C400D9AB72 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				85190B611D6E3FB5009C98C4 /* CMLoginManager.h */,
+				85190B621D6E3FB5009C98C4 /* CMLoginManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -125,6 +229,10 @@
 		851319831D6B92C400D9AB72 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				85190B5E1D6E1F72009C98C4 /* CMNetworkProvider.h */,
+				85190B5F1D6E1F72009C98C4 /* CMNetworkProvider.m */,
+				85190B641D6F7A2A009C98C4 /* CMUserProvider.h */,
+				85190B651D6F7A2A009C98C4 /* CMUserProvider.m */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -139,8 +247,112 @@
 		851319851D6B92C400D9AB72 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				85F3BC9C1D6CB6690027C10B /* CMLoginUIView.h */,
+				85F3BC9D1D6CB6690027C10B /* CMLoginUIView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		85190B671D708899009C98C4 /* loader */ = {
+			isa = PBXGroup;
+			children = (
+				85190B681D708899009C98C4 /* imagem-0.png */,
+				85190B691D708899009C98C4 /* imagem-1.png */,
+				85190B6A1D708899009C98C4 /* imagem-10.png */,
+				85190B6B1D708899009C98C4 /* imagem-11.png */,
+				85190B6C1D708899009C98C4 /* imagem-12.png */,
+				85190B6D1D708899009C98C4 /* imagem-13.png */,
+				85190B6E1D708899009C98C4 /* imagem-14.png */,
+				85190B6F1D708899009C98C4 /* imagem-15.png */,
+				85190B701D708899009C98C4 /* imagem-16.png */,
+				85190B711D708899009C98C4 /* imagem-17.png */,
+				85190B721D708899009C98C4 /* imagem-18.png */,
+				85190B731D708899009C98C4 /* imagem-19.png */,
+				85190B741D708899009C98C4 /* imagem-2.png */,
+				85190B751D708899009C98C4 /* imagem-3.png */,
+				85190B761D708899009C98C4 /* imagem-4.png */,
+				85190B771D708899009C98C4 /* imagem-5.png */,
+				85190B781D708899009C98C4 /* imagem-6.png */,
+				85190B791D708899009C98C4 /* imagem-7.png */,
+				85190B7A1D708899009C98C4 /* imagem-8.png */,
+				85190B7B1D708899009C98C4 /* imagem-9.png */,
+			);
+			path = loader;
+			sourceTree = "<group>";
+		};
+		85190B901D70B9BC009C98C4 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				85190B911D70B9BC009C98C4 /* SanFranciscoFont-master */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		85190B911D70B9BC009C98C4 /* SanFranciscoFont-master */ = {
+			isa = PBXGroup;
+			children = (
+				85190B931D70B9BC009C98C4 /* SanFranciscoDisplay-Black.otf */,
+				85190B941D70B9BC009C98C4 /* SanFranciscoDisplay-Bold.otf */,
+				85190B951D70B9BC009C98C4 /* SanFranciscoDisplay-Heavy.otf */,
+				85190B961D70B9BC009C98C4 /* SanFranciscoDisplay-Light.otf */,
+				85190B971D70B9BC009C98C4 /* SanFranciscoDisplay-Medium.otf */,
+				85190B981D70B9BC009C98C4 /* SanFranciscoDisplay-Regular.otf */,
+				85190B991D70B9BC009C98C4 /* SanFranciscoDisplay-Semibold.otf */,
+				85190B9A1D70B9BC009C98C4 /* SanFranciscoDisplay-Thin.otf */,
+				85190B9B1D70B9BC009C98C4 /* SanFranciscoDisplay-Ultralight.otf */,
+				85190B9C1D70B9BC009C98C4 /* SanFranciscoText-Bold.otf */,
+				85190B9D1D70B9BC009C98C4 /* SanFranciscoText-BoldItalic.otf */,
+				85190B9E1D70B9BC009C98C4 /* SanFranciscoText-Heavy.otf */,
+				85190B9F1D70B9BC009C98C4 /* SanFranciscoText-HeavyItalic.otf */,
+				85190BA01D70B9BC009C98C4 /* SanFranciscoText-Light.otf */,
+				85190BA11D70B9BC009C98C4 /* SanFranciscoText-LightItalic.otf */,
+				85190BA21D70B9BC009C98C4 /* SanFranciscoText-Medium.otf */,
+				85190BA31D70B9BC009C98C4 /* SanFranciscoText-MediumItalic.otf */,
+				85190BA41D70B9BC009C98C4 /* SanFranciscoText-Regular.otf */,
+				85190BA51D70B9BC009C98C4 /* SanFranciscoText-RegularItalic.otf */,
+				85190BA61D70B9BC009C98C4 /* SanFranciscoText-Semibold.otf */,
+				85190BA71D70B9BC009C98C4 /* SanFranciscoText-SemiboldItalic.otf */,
+			);
+			path = "SanFranciscoFont-master";
+			sourceTree = "<group>";
+		};
+		85F3BC771D6C78E60027C10B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85190B901D70B9BC009C98C4 /* fonts */,
+				85190B671D708899009C98C4 /* loader */,
+				85F3BC781D6C79200027C10B /* Storyboards */,
+				851319711D6B925500D9AB72 /* Assets.xcassets */,
+				85F3BCC21D6CF6D80027C10B /* CMCustomTextField.h */,
+				85F3BCC31D6CF6D80027C10B /* CMCustomTextField.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85F3BC781D6C79200027C10B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8513196E1D6B925500D9AB72 /* Main.storyboard */,
+				851319731D6B925500D9AB72 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B4AF5CC969CB751D124709C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7860C36D7B325A949F47917 /* Pods_CardManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4759510E8C9F937D69D05A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB60D1DA56B260F3E51CDD6F /* Pods-CardManager.debug.xcconfig */,
+				09D38EBB29B3110D99EA570B /* Pods-CardManager.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 851319791D6B925500D9AB72 /* Build configuration list for PBXNativeTarget "CardManager" */;
 			buildPhases = (
+				67D32B851412E88A63687069 /* [CP] Check Pods Manifest.lock */,
 				8513195E1D6B925500D9AB72 /* Sources */,
 				8513195F1D6B925500D9AB72 /* Frameworks */,
 				851319601D6B925500D9AB72 /* Resources */,
+				0C7DD385A62D39AE8F540538 /* [CP] Embed Pods Frameworks */,
+				6313FD57D6F2DCD06E663363 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,21 +415,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85190BAF1D70B9BC009C98C4 /* SanFranciscoDisplay-Semibold.otf in Resources */,
+				85190B8A1D708899009C98C4 /* imagem-4.png in Resources */,
+				85190B801D708899009C98C4 /* imagem-12.png in Resources */,
+				85190B8C1D708899009C98C4 /* imagem-6.png in Resources */,
+				85190BB51D70B9BC009C98C4 /* SanFranciscoText-HeavyItalic.otf in Resources */,
+				85190B891D708899009C98C4 /* imagem-3.png in Resources */,
+				85190BB41D70B9BC009C98C4 /* SanFranciscoText-Heavy.otf in Resources */,
+				85190B8E1D708899009C98C4 /* imagem-8.png in Resources */,
+				85190B811D708899009C98C4 /* imagem-13.png in Resources */,
+				85190BB91D70B9BC009C98C4 /* SanFranciscoText-MediumItalic.otf in Resources */,
+				85190BA91D70B9BC009C98C4 /* SanFranciscoDisplay-Black.otf in Resources */,
+				85190BB71D70B9BC009C98C4 /* SanFranciscoText-LightItalic.otf in Resources */,
+				85190B7C1D708899009C98C4 /* imagem-0.png in Resources */,
 				851319751D6B925500D9AB72 /* LaunchScreen.storyboard in Resources */,
+				85190B871D708899009C98C4 /* imagem-19.png in Resources */,
+				85190B861D708899009C98C4 /* imagem-18.png in Resources */,
+				85190B841D708899009C98C4 /* imagem-16.png in Resources */,
+				85190B831D708899009C98C4 /* imagem-15.png in Resources */,
+				85190BB11D70B9BC009C98C4 /* SanFranciscoDisplay-Ultralight.otf in Resources */,
+				85190B821D708899009C98C4 /* imagem-14.png in Resources */,
+				85190BB81D70B9BC009C98C4 /* SanFranciscoText-Medium.otf in Resources */,
+				85190B7D1D708899009C98C4 /* imagem-1.png in Resources */,
+				85190BB31D70B9BC009C98C4 /* SanFranciscoText-BoldItalic.otf in Resources */,
+				85190B8B1D708899009C98C4 /* imagem-5.png in Resources */,
+				85190BAB1D70B9BC009C98C4 /* SanFranciscoDisplay-Heavy.otf in Resources */,
+				85190BB01D70B9BC009C98C4 /* SanFranciscoDisplay-Thin.otf in Resources */,
+				85190BB61D70B9BC009C98C4 /* SanFranciscoText-Light.otf in Resources */,
+				85190B8F1D708899009C98C4 /* imagem-9.png in Resources */,
 				851319721D6B925500D9AB72 /* Assets.xcassets in Resources */,
+				85190BBC1D70B9BC009C98C4 /* SanFranciscoText-Semibold.otf in Resources */,
+				85190B851D708899009C98C4 /* imagem-17.png in Resources */,
+				85190BB21D70B9BC009C98C4 /* SanFranciscoText-Bold.otf in Resources */,
+				85190BBB1D70B9BC009C98C4 /* SanFranciscoText-RegularItalic.otf in Resources */,
+				85190B7F1D708899009C98C4 /* imagem-11.png in Resources */,
+				85190B7E1D708899009C98C4 /* imagem-10.png in Resources */,
+				85190BBD1D70B9BC009C98C4 /* SanFranciscoText-SemiboldItalic.otf in Resources */,
+				85190B8D1D708899009C98C4 /* imagem-7.png in Resources */,
+				85190BAD1D70B9BC009C98C4 /* SanFranciscoDisplay-Medium.otf in Resources */,
+				85190B881D708899009C98C4 /* imagem-2.png in Resources */,
+				85190BAE1D70B9BC009C98C4 /* SanFranciscoDisplay-Regular.otf in Resources */,
 				851319701D6B925500D9AB72 /* Main.storyboard in Resources */,
+				85190BAC1D70B9BC009C98C4 /* SanFranciscoDisplay-Light.otf in Resources */,
+				85190BBA1D70B9BC009C98C4 /* SanFranciscoText-Regular.otf in Resources */,
+				85190BAA1D70B9BC009C98C4 /* SanFranciscoDisplay-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C7DD385A62D39AE8F540538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardManager/Pods-CardManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6313FD57D6F2DCD06E663363 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardManager/Pods-CardManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D32B851412E88A63687069 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8513195E1D6B925500D9AB72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8513196D1D6B925500D9AB72 /* ViewController.m in Sources */,
+				8513196D1D6B925500D9AB72 /* CMLoginViewController.m in Sources */,
+				85F3BC9E1D6CB6690027C10B /* CMLoginUIView.m in Sources */,
+				85190B661D6F7A2A009C98C4 /* CMUserProvider.m in Sources */,
+				85190B631D6E3FB5009C98C4 /* CMLoginManager.m in Sources */,
+				85F3BCC41D6CF6D80027C10B /* CMCustomTextField.m in Sources */,
 				8513196A1D6B925500D9AB72 /* AppDelegate.m in Sources */,
+				85190B601D6E1F72009C98C4 /* CMNetworkProvider.m in Sources */,
 				851319671D6B925500D9AB72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +537,7 @@
 				8513196F1D6B925500D9AB72 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		851319731D6B925500D9AB72 /* LaunchScreen.storyboard */ = {
@@ -236,6 +546,7 @@
 				851319741D6B925500D9AB72 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -325,6 +636,7 @@
 		};
 		8513197A1D6B925500D9AB72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB60D1DA56B260F3E51CDD6F /* Pods-CardManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CardManager/Info.plist;
@@ -336,6 +648,7 @@
 		};
 		8513197B1D6B925500D9AB72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D38EBB29B3110D99EA570B /* Pods-CardManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CardManager/Info.plist;
@@ -364,6 +677,7 @@
 				8513197B1D6B925500D9AB72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

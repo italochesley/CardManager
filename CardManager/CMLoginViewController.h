@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMLoginUIView.h"
+#import "CMNetworkProvider.h"
+#import "CMLoginManager.h"
+#import "AFNetworking.h"
 
-@interface ViewController : UIViewController
+@interface CMLoginViewController : UIViewController
 
 
 @end
